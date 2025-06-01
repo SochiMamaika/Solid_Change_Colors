@@ -137,7 +137,7 @@ namespace WindowsFormsApp1
                         Location = new Point(10, y),
                         Font = new Font("Segoe UI", 11F, FontStyle.Regular),
                         Tag = style,
-                        Text = $"Стиль {i}",
+                        Text = style.StyleName,
                         FlatStyle = FlatStyle.Flat
                     };
 
